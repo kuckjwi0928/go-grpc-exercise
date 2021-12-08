@@ -27,7 +27,7 @@ type BoardMock struct {
 }
 
 func init() {
-	f, err := os.Open("./server/mocking/mock.json")
+	f, err := os.Open("./mocking/mock.json")
 	if err != nil {
 		log.Fatal(err)
 		return
